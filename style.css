@@ -1,0 +1,1469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f6f6;
+    color: black;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #00baf2;
+    border-radius: 20px;
+}
+
+    /* <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Navigation part start %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% --> */
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 20px rgb(0 41 112 / 10%);
+    height: 92px;
+    background: #fff;
+    width: 100%;
+    /* position: sticky; */
+    top: 0;
+    z-index: 4;
+
+}
+.navigation{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    position: relative;
+}
+
+nav ul li {
+    margin-right: 5px;
+    padding: 3px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #333;
+    font-weight: 600;
+    padding: 12px;
+}
+nav ul li a:hover {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+}
+
+.logo{
+    max-width: 180px;
+    
+}
+
+.header .header-button{
+    padding: 2px 2px 2px 20px;
+    border-radius: 20px;
+    background-color: #00bdf2;
+    
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header-button:hover{
+    background: #002970;
+    
+}
+.header .header-button .llll{
+    background: url(https://pwebassets.paytm.com/frontendcommonweb/static/9fd9626b.svg);
+}
+.header .header-button:hover .llll{
+    background: url(https://pwebassets.paytm.com/frontendcommonweb/static/9a65db05.svg);
+}
+.header-button .llll{
+    margin-left: 9px;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    top: 35px;
+    display: none;
+    width: 202px;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid rgb(199, 198, 198);
+    /* min-width: 160px; */
+    box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    border-radius: 5px;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 16px 17px 16px 25px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+  }
+  .dropdown-content a i{
+    float: right;
+    margin-left: 16px;
+  }
+  .dropdown-content a:hover {
+    background-color: #f7f7f7;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+
+   
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Navigation part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% No wallet part starts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.no-wallet{
+    padding: 8px 8px 10px 8px;
+    text-align: center;
+}
+.no-wallet span:nth-child(1){
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0px 5px 0px 0px;
+}
+.no-wallet span:nth-child(2){
+    font-size: 25px;
+    margin: 0px 0px 3px;
+    padding: 0px 5px 0px 0px;
+}
+.no-wallet span:nth-child(3){
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 5px 0px 0px;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% No wallet part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% app promotion start %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+.app-promo{
+    background-color: #ffffff;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.app-content{
+    padding: 128px 0px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.app-left{
+    margin-left: 52px;
+}
+.app_left_image{
+    margin-bottom: 48px;
+}
+.app_left_image img{
+    width: 80px;
+}
+.app-text h1{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.app-text p{
+    font-size: 20px;
+    padding-top: 10px;
+    width: 475px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.app-button a{
+    padding: 15px 31px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+}
+.app-button a:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s ease;
+}
+.app-button .fa{
+    font-size: 21px;
+    position: relative;
+    top: 3px;
+    padding-left: 4px;
+    
+}
+.app_right_image img{
+    width: 528px;
+}
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% app promotion ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Recharge & Pay part start %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+.recharge{
+    background-color: #00baf2;
+    padding: 65px 0px;
+    
+}
+.recharge-heading{
+    width: 1260px;
+    margin: auto;
+
+}
+.recharge-heading h1{
+    font-size: 36px;
+    color: #fff;
+}
+
+.recharge-content{
+  display: flex;
+  flex-direction: row;
+  width: 1260px;
+  margin: auto;
+  margin-top: 25px;
+}
+.recharge-content .items{
+    width: 167px;
+    margin-right: 32px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 16px 11px 16px 16px;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 25px;
+    
+}
+
+.items .recharge-icons img{
+    width: 64px;
+    margin-bottom: 17px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.recharge-para{
+    margin-right: 11px;
+    cursor: pointer;
+    position: relative;
+    min-height: 45px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.recharge-content .items:hover{
+    background-color: #03a7d9;
+    transition: 0.3s ease;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Recharge & Pay part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Book and Buy part start %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+.book{
+    background-color: #0f4a8a;
+    padding: 65px 0px;
+    
+}
+.book-heading{
+    width: 1260px;
+    margin: auto;
+
+}
+.book-heading h1{
+    font-size: 36px;
+    color: #fff;
+}
+
+.book-content{
+  display: flex;
+  flex-direction: row;
+  width: 1260px;
+  margin: auto;
+  margin-top: 25px;
+}
+.book-content .items{
+    width: 167px;
+    margin-right: 13px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 16px 11px 16px 16px;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.items .book-icons img{
+    width: 64px;
+    margin-bottom: 17px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.book-para{
+    margin-right: 11px;
+    cursor: pointer;
+    position: relative;
+    min-height: 45px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.book-content .items:hover{
+    background-color: #0d3f75;
+    transition: 0.3s ease;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% book and buy part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Payment instruction part starts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+.instruction-body{
+    padding-top: 120px;
+    background-color: #f1f1f1;
+}
+
+.instruction-body .heading-content{
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.instruction-content{
+    /* padding: 128px 0px 120px; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+
+}
+
+.instruction-text h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.instruction-text p{
+    font-size: 17px;
+    padding-top: 10px;
+    width: 475px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.instruction-button a{
+    padding: 15px 21px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+}
+.instruction-button a:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s ease;
+}
+.instruction-button .fa{
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    padding-left: 4px;
+    
+}
+.instruction-inner{
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+}
+.instruction-inner{
+    padding: 80px 50px 80px 115px;
+}
+
+.instruction-mini-image{
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.instruction-mini-image img{
+    height: 77px;
+    width: auto;
+    padding-right: 12px;
+}
+.instruction-mini-image p{
+    font-weight: 700;
+}
+.instruction_right_image img{
+    width: 539px;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Payment instruction part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% UPI money transfer part starts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+.upi-body{
+    padding-top: 49px;
+    background-color: #f1f1f1;
+}
+
+.upi-body .heading-content{
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.upi-content{
+    /* padding: 128px 0px 120px; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+
+}
+
+.upi-text h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.upi-text p{
+    font-size: 17px;
+    padding-top: 10px;
+    width: 475px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.upi-button a{
+    padding: 15px 21px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+}
+.upi-button a:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s ease;
+}
+.upi-button .fa{
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    padding-left: 4px;
+    
+}
+.upi-inner{
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+}
+.upi-inner{
+    padding: 80px 50px 80px 115px;
+}
+
+.upi-mini-image{
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.upi-mini-image img{
+    height: 77px;
+    width: auto;
+    padding-right: 12px;
+}
+.upi-mini-image p{
+    font-weight: 700;
+}
+.upi_right_image img{
+    width: 539px;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% UPI money transfer part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% paytm postpaid part starts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+.postpaid-body{
+    padding-top: 49px;
+    background-color: #f1f1f1;
+}
+
+.postpaid-body .heading-content{
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.postpaid-content{
+    /* padding: 128px 0px 120px; */
+    display: flex;
+    flex-direction: row;
+    row-gap: 40px;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+
+}
+.postpaid-text{
+    width: 435px;
+}
+
+.postpaid-text h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.postpaid-text p{
+    font-size: 17px;
+    padding-top: 10px;
+    
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.postpaid-button a{
+    padding: 15px 21px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: #002970;
+}
+.postpaid-button a:hover{
+    background-color: #00baf2;
+    transition: 0.3s ease;
+}
+.postpaid-button .fa{
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    padding-left: 14px;
+    
+}
+.postpaid-inner{
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+}
+.postpaid-inner{
+    padding: 80px 50px 80px 115px;
+}
+
+.postpaid-mini-image{
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.postpaid-mini-image img{
+    height: 77px;
+    width: auto;
+    padding-right: 12px;
+}
+.postpaid-mini-image p{
+    font-weight: 700;
+}
+.postpaid_right_image img{
+    width: 433px;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% paytm postpaid part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% bank part starts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+.bank-body{
+    padding-top: 49px;
+    background-color: #f1f1f1;
+}
+
+.bank-inner{
+    width: 1170px;
+    margin: auto;
+    padding: 0px 0 96px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.bank-left{
+    background: #fff;
+    border-radius: 16px;
+    padding: 70px 64px 0;
+    margin-right: 48px;
+    position: relative;
+    width: 561px;
+    height: 710px;
+}
+
+
+.bank-text{
+    width: 435px;
+}
+
+.bank-text h1{
+    padding-top: 28px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.bank-text p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+
+
+.bank-mini-image{
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-bottom: 28px; */
+}
+.bank-mini-image img{
+    height: 77px;
+    width: auto;
+    padding-right: 12px;
+}
+.bank-mini-image-2{
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 57px;
+}
+.bank-mini-image-2 img{
+    width: auto;
+    height: 20px;
+    padding-right: 12px;
+}
+.bank-mini-image p{
+    font-weight: 700;
+}
+
+.bank-bottom-image img{
+    height: 296px;
+    -webkit-transform: translate(-50%,2%);
+    transform: translate(-50%,2%);
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+}
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% bank part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% financial part starts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+.financial-body{
+    /* padding-top: 79px; */
+    background-color: #fff;
+}
+.padding-120{
+    padding-top: 120px;
+}
+
+
+
+.financial-body .heading-content{
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.financial-content{
+    /* padding: 128px 0px 120px; */
+    display: flex;
+    flex-direction: row;
+    row-gap: 40px;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+
+}
+.financial-text{
+    width: 435px;
+}
+
+.financial-text h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.financial-text p{
+    font-size: 17px;
+    padding-top: 10px;
+    
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.financial-button{
+    margin-top: 20px;
+}
+
+.financial-button a{
+    padding: 15px 21px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: #002970;
+}
+.financial-button a:hover{
+    background-color: #00baf2;
+    transition: 0.3s ease;
+}
+.financial-button .fa{
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    padding-left: 14px;
+    
+}
+.financial-inner{
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+}
+.financial-inner{
+    padding: 34px 0px 79px 0px;
+}
+
+.financial-mini-image{
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.financial-mini-image img{
+    width: 212px;
+    padding-bottom: 12px;
+}
+.financial-mini-image p{
+    font-weight: 700;
+}
+.financial_right_image img{
+    width: 452px;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% financial part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% paytm money part starts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+.money-body{
+    position: relative;
+    background-color: transparent;
+    padding: 0 0 48px;
+}
+
+.money-body ._3pVBj {
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+}
+
+
+.money-body .back {
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.padding-120{
+    padding-top: 120px;
+}
+
+
+
+.money-body .heading-content{
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.money-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+}
+.money-text{
+    width: 538px;
+}
+
+.money-text h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.money-text p{
+    font-size: 17px;
+    padding-top: 10px;
+    
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.money-button{
+    margin-top: 20px;
+}
+
+.money-button a{
+    padding: 15px 21px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: #002970;
+}
+.money-button a:hover{
+    background-color: #00baf2;
+    transition: 0.3s ease;
+}
+.money-button .fa{
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    padding-left: 14px;
+    
+}
+.money-inner{
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    /* background-color: #fff; */
+}
+.money-inner{
+    padding: 84px 0px 79px 0px;
+}
+
+.money-mini-image{
+    width: 175px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.money-mini-image img{
+    height: 54px;
+}
+.money-mini-image p{
+    font-weight: 700;
+}
+.money_right_image img{
+    width: 472px;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% paytm money part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% insurance part starts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+.insurance-body{
+    background-color: #fff;
+    padding: 0 0 48px;
+}
+
+.insurance-body ._3pVBj {
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+}
+
+
+.insurance-body .back {
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.padding-120{
+    padding-top: 120px;
+}
+
+
+
+.insurance-body .heading-content{
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.insurance-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.insurance-text{
+    width: 538px;
+}
+
+.insurance-text h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.insurance-text p{
+    font-size: 17px;
+    padding-top: 10px;
+    
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.insurance-button{
+    margin-top: 20px;
+}
+
+.insurance-button a{
+    padding: 15px 21px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: #002970;
+}
+.insurance-button a:hover{
+    background-color: #00baf2;
+    transition: 0.3s ease;
+}
+.insurance-button .fa{
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    padding-left: 14px;
+    
+}
+.insurance-inner{
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    /* background-color: #fff; */
+}
+.insurance-inner{
+    padding: 84px 0px 79px 0px;
+}
+
+.insurance-mini-image{
+    width: 175px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.insurance-mini-image img{
+    height: 54px;
+}
+.insurance-mini-image p{
+    font-weight: 700;
+}
+.insurance_right_image img{
+    width: 433px;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% insurance part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% loan part starts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+.loan-body{
+    background-color: transparent;
+    padding: 0 0 48px;
+}
+
+.loan-body ._3pVBj {
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+}
+
+
+.loan-body .back {
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.padding-120{
+    padding-top: 120px;
+}
+
+
+
+.loan-body .heading-content{
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.loan-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+}
+.loan-text{
+    width: 538px;
+}
+
+.loan-text h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.loan-text p{
+    font-size: 17px;
+    padding-top: 10px;
+    
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.loan-button{
+    margin-top: 20px;
+}
+
+.loan-button a{
+    padding: 15px 21px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: #002970;
+}
+.loan-button a:hover{
+    background-color: #00baf2;
+    transition: 0.3s ease;
+}
+.loan-button .fa{
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    padding-left: 14px;
+    
+}
+.loan-inner{
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    /* background-color: #fff; */
+}
+.loan-inner{
+    padding: 84px 0px 79px 0px;
+}
+
+.loan-mini-image{
+    width: 175px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.loan-mini-image img{
+    height: 54px;
+}
+.loan-mini-image p{
+    font-weight: 700;
+}
+.loan_right_image img{
+    width: 433px;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% loan part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% business-sir part starts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+.business-sir-body{
+    padding-top: 120px;
+    background-color: #fff;
+}
+
+.business-sir-body .heading-content{
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.business-sir-content{
+    /* padding: 128px 0px 120px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+
+}
+
+.business-sir-text h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.business-sir-text p{
+    font-size: 17px;
+    padding-top: 10px;
+    width: 475px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.business-sir-left{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.business-sir-button a{
+    padding: 15px 21px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+}
+.business-sir-button a:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s ease;
+}
+.business-sir-button .fa{
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    padding-left: 4px;
+    
+}
+.business-sir-inner{
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    background-color: #f1f1f1;
+}
+.business-sir-inner{
+    padding: 80px 0px 80px 115px;
+}
+
+.business-sir-mini-image{
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.business-sir-mini-image img{
+    height: 77px;
+    width: auto;
+    padding-right: 12px;
+}
+.business-sir-mini-image p{
+    font-weight: 700;
+}
+.business-sir_right_image img{
+    width: 433px;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% business-sir part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% in-shop part starts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+.in-shop-body{
+    padding-top: 50px;
+    background-color: #fff;
+}
+
+.in-shop-body .heading-content{
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.in-shop-content{
+    /* padding: 128px 0px 120px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+
+}
+
+.in-shop-text h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.in-shop-text p{
+    font-size: 17px;
+    padding-top: 10px;
+    width: 475px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.in-shop-left{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.in-shop-button a{
+    padding: 15px 21px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+}
+.in-shop-button a:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s ease;
+}
+.in-shop-button .fa{
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    padding-left: 4px;
+    
+}
+.in-shop-inner{
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    background-color: #f1f1f1;
+}
+.in-shop-inner{
+    padding: 80px 0px 80px 115px;
+}
+
+.in-shop-mini-image{
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.in-shop-mini-image img{
+    height: 77px;
+    width: auto;
+    padding-right: 12px;
+}
+.in-shop-mini-image p{
+    font-weight: 700;
+}
+.in-shop_right_image img{
+    width: 433px;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% in-shop part ends %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  */
+
